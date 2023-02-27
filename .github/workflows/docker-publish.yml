@@ -29,7 +29,7 @@ jobs:
       # https://github.com/marketplace/actions/cosign-installer
       uses: sigstore/cosign-installer@main
       with:
-        cosign-release: 'v2.8.1'
+        cosign-release: 'v2.0.0-rc.0'
 
     - name: Setup Docker buildx
       # https://github.com/marketplace/actions/docker-setup-buildx
